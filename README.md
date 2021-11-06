@@ -3,4 +3,4 @@ PlayCave is the IMDB for Video Games. Gamers can come and see games. Still under
 
 
 
-Made by Saumitra, Shivam.
+Made by Saumitra, Maurya, Shivam.
