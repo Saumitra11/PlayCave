@@ -23,7 +23,7 @@
 #log #chk {
   display: none;
 }
-#log .signup {
+#log #signup {
   position: relative;
   width: 100%;
   height: 100%;
@@ -92,6 +92,10 @@
 }
 #log input::placeholder {
   font-family: "Poppins", sans-serif;
+}
+#log a {
+  position: relative;
+  left: 100px;
 }
 /**************************************************************************************************/
 /*FORGOT PASSWORD*/
