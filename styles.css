@@ -16,7 +16,7 @@
   height: 500px;
   background: red;
   overflow: hidden;
-  background: url("Images/login-signup/1.jpg") no-repeat center / cover;
+  background: url("./Images/login-signup/1.jpg") no-repeat center / cover;
   border-radius: 10px;
   box-shadow: 5px 20px 50px #000;
 }
@@ -115,7 +115,7 @@
   height: 500px;
   background: red;
   overflow: hidden;
-  background: url("Images/forgot-password/2.jpg") no-repeat center / cover;
+  background: url("./Images/forgot-password/2.jpg") no-repeat center / cover;
   border-radius: 10px;
   box-shadow: 5px 20px 50px #000;
 }
@@ -187,7 +187,7 @@
   height: 500px;
   background: red;
   overflow: hidden;
-  background: url("Images/reset-password/3.jpg") no-repeat center / cover;
+  background: url("./Images/reset-password/3.jpg") no-repeat center / cover;
   border-radius: 10px;
   box-shadow: 5px 20px 50px #000;
 }
