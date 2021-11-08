@@ -268,7 +268,6 @@
 #home .nav__el,
 #home .nav__el:link,
 #home .nav__el:visited {
-  /* color: #f7f7f7; */
   color: #302b63;
   text-transform: uppercase;
   font-size: 1rem;
@@ -345,13 +344,14 @@
   overflow: hidden;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: #28282b;
   -webkit-transition: 0.3s all;
   transition: 0.3s all;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   display: flex;
   flex-direction: column;
+  color: whitesmoke;
 }
 #home .card__header {
   position: relative;
@@ -393,7 +393,7 @@
   padding: 2.5rem 3rem;
 }
 #home .card__sub-heading {
-  font-size: 1.2rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   font-weight: 700;
   grid-column: 1 / -1;
@@ -402,18 +402,16 @@
   grid-column: 1 / -1;
   font-size: 1rem;
   font-style: italic;
-  margin-top: -1rem;
-  margin-bottom: 0.75rem;
 }
 #home .card__data {
-  font-size: 1rem;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 #home .card__footer {
-  padding: 1rem 3rem;
-  font-size: 1rem;
+  padding: 0 3rem;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -432,7 +430,6 @@
   font-weight: 400;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  /*Add later when we use this for the button in form*/
   border: none;
   cursor: pointer;
 }
@@ -465,11 +462,11 @@
 }
 
 #home .btn--green {
-  background-color: #302b63;
-  color: #fff;
+  background-color: whitesmoke;
+  color: #302b63;
 }
 #home .btn--green::after {
-  background-color: #302b63;
+  background-color: whitesmoke;
 }
 
 #home .btn--small {
@@ -480,7 +477,7 @@
 #home .btn-small,
 #home .btn-small:link,
 #home .btn-small:visited {
-  background-color: #302b63;
+  background-color: whitesmoke;
   color: #fff;
   font-size: 1.4rem;
   padding: 1.25rem 3rem;
@@ -493,8 +490,4 @@
   text-decoration: none;
   font-weight: 400;
   border: none;
-}
-
-#home .btn-small:hover {
-  background-color: #302b63;
 }
