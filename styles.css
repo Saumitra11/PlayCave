@@ -604,22 +604,28 @@
   width: 100%;
   background-color: #fff;
   background-color: #f2f2f2;
-  border-top: 3px solid;
-  border-bottom: 3px solid;
+  border: 3px solid;
+  /* border-bottom: 3px solid; */
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border-radius: 4px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+
   /* Pseudo element (a visible thing that isn't really in the DOM).
       Also needs -ms- */
 }
+/* #home .form2__input:hover {
+  box-shadow: 6px 6px #302b63;
+} */
 #home .form2__input:focus {
   outline: none;
-  border-bottom: 3px solid #55c57a;
+  /* border-bottom: 3px solid ; */
+  box-shadow: 6px 6px #55c57a;
 }
 #home .form2__input:focus:invalid {
-  border-bottom: 3px solid #ff7730;
+  /* border-bottom: 3px solid #ff7730; */
+  box-shadow: 6px 6px #ff7730;
 }
 #home .form2__input::-webkit-input-placeholder {
   color: #bbb;
