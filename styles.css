@@ -1014,11 +1014,14 @@
 }
 #home .ratings {
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 2rem;
   margin-top: 40px;
   background-color: whitesmoke;
   color: #302b63;
   padding: 20px;
+  min-width: 85rem;
 }
 #home .ratings .textStuff {
   display: flex;
