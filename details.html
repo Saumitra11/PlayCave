@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Details</title>
-    <link href="./styles.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -31,6 +30,7 @@
       integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
       crossorigin="anonymous"
     />
+    <link href="./styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body id="home">
     <!-- Content -->
@@ -44,7 +44,9 @@
         />
       </div>
       <div class="heading-box">
-        <h1 class="heading-primary"><span>GRAND THEFT AUTO V</span></h1>
+        <h1 class="heading-primary responsiveHeader">
+          <span>GRAND THEFT AUTO V</span>
+        </h1>
         <div class="heading-box__group">
           <div class="heading-box__detail">
             <svg class="heading-box__icon">
@@ -120,7 +122,7 @@
         </div>
       </div>
       <div class="description-box">
-        <h2 class="heading-secondary ma-bt-lg">Description</h2>
+        <h2 class="heading-secondary ma-bt-lg responsiveDesc">Description</h2>
         <p class="description__text">
           Rockstar Games went bigger, since their previous installment of the
           series. You get the complicated and realistic world-building from
@@ -143,6 +145,7 @@
       </div>
     </section>
     <section class="section-pictures">
+      <!-- <h1 class="h1forpics">Snapshots of the Game</h1> -->
       <div class="picture-box">
         <img
           class="picture-box__img picture-box__img--1"
@@ -221,6 +224,17 @@
         </div>
       </div>
     </section>
+    <!-- <script>
+      let h1 = document.querySelector(".h1forpics");
+      function activeSetter() {
+        if (document.documentElement.clientWidth < 1400) {
+          h1.classList.add("activeForh1ForPics");
+        } else {
+          h1.classList.remove("activeForh1ForPics");
+        }
+      }
+      setInterval(activeSetter, 100);
+    </script> -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
